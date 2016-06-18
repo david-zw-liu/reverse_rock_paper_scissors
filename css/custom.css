@@ -1,0 +1,48 @@
+
+/* Use custom font */
+* {
+  font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+body{
+  height: 100vh;
+  background: #fcecfc; /* Old browsers */
+  background: -moz-linear-gradient(top, #fcecfc 0%, #f9b3e3 87%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fcecfc 0%,#f9b3e3 87%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fcecfc 0%,#f9b3e3 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#f9b3e3',GradientType=0 ); /* IE6-9 */
+}
+
+h1 {
+  padding-bottom: 10px;
+  border-bottom: 2px dotted pink;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.option-img {
+  margin-bottom: 10px;
+  max-height: 20vh;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#paper:hover, #stone:hover, #scissor:hover{
+  border: 3px yellow solid;
+}
+
+#timer{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+#msg{
+  margin: 20px auto;
+  font-size: 25px;
+  font-weight: 500;
+}
