@@ -60,7 +60,7 @@ function game(){
   $('#scissor, #paper, #stone').click(function(){
     //Clear timer
     clearTimeout(countdown);
-    for (var i = 1; i < 99999; i++){
+    for (var i = 1; i < 999; i++){
       window.clearInterval(i);
     }
 
