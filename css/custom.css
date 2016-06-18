@@ -18,9 +18,13 @@ h1 {
   border-bottom: 2px dotted pink;
 }
 
-h2 {
+h2, .swal2-content h3 {
   margin: 0;
   padding: 0;
+}
+
+.swal2-modal h2{
+  line-height: 40px;
 }
 
 .option-img {
@@ -42,7 +46,7 @@ h2 {
 }
 
 #msg{
-  margin: 30px auto;
+  margin: 0px auto;
   font-size: 50px;
   font-weight: 500;
 }

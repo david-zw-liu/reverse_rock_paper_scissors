@@ -95,14 +95,17 @@ function game(){
 }
 
 
-
 swal({
   title: '遊戲說明',
   html:'本遊戲與一般猜拳相反<br>'+
        '獲勝條件為『出相反的拳』才能獲勝<br><br>'+
-       '<strong>例子</strong><br>電腦出『剪刀』而玩家出『石頭』，這樣為電腦獲勝。<br><br>'+
-       '<strong>得分</strong><br>為每局剩餘時間乘 10',
+       '<h3>例子</h3>電腦出『剪刀』而玩家出『石頭』，這樣為電腦獲勝。<br>'+
+       '<h3>得分</h3>為每局剩餘時間乘 10',
   confirmButtonText: '開始遊戲',
   allowOutsideClick: false
-}).then(function(){game();});
+}).then(function(){
+    window.scrollTo(0,document.body.scrollHeight);
+    game();
+});
+
 
